@@ -1,0 +1,51 @@
+# Project: [Your Project Name]
+
+## Overview
+[1-2 sentences about what this project does]
+
+## Stack
+- [Language/Framework]
+- [Database]
+- [Deployment target]
+
+## Commands
+
+```bash
+# Install dependencies
+npm install
+
+# Run dev server
+npm run dev
+
+# Run tests
+npm test
+
+# Lint
+npm run lint
+
+# Build for production
+npm run build
+```
+
+## Architecture
+
+- `src/` - Application source code
+- `src/components/` - React components
+- `src/routes/` - Route definitions
+- `src/lib/` - Shared utilities
+- `tests/` - Test files
+
+## Conventions
+
+- Use TypeScript strict mode
+- Components use PascalCase filenames
+- Utilities use camelCase filenames
+- Always write tests for new features
+- Use conventional commit messages (feat:, fix:, chore:, etc.)
+
+## Things to Never Do
+
+- Don't commit .env files
+- Don't use `any` type in TypeScript
+- Don't push directly to main (use feature branches)
+- Don't add dependencies without checking bundle size impact
